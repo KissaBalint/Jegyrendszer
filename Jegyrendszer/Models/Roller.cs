@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Jegyrendszer.Models
 {
-    internal class Roller
+    public class Roller : Kozlekedesieszkoz
     {
+        public override int arSzamitas(int alapdij, int tavolsag)
+        {
+            return tavolsag * 120;
+        }
     }
 }

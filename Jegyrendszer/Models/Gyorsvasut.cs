@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Jegyrendszer.Models
 {
-    internal class Gyorsvasut
+    public class Gyorsvasut : Kozlekedesieszkoz
     {
+        public override int arSzamitas(int alapdij, int tavolsag)
+        {
+            return (alapdij * 2) + (tavolsag * 50);  
+        }
     }
 }
