@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jegyrendszer
+namespace Jegyrendszer.Models
 {
-    internal class Program
+    public class Kozlekedesieszkoz
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
