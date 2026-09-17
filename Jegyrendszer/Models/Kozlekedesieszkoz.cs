@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Jegyrendszer.Models
 {
-    public class Kozlekedesieszkoz
+    public abstract class Kozlekedesieszkoz
     {
+        public int alapdij;
+        public int tavolsag;
+
+        public abstract int arSzamitas(int alapdij, int tavolsag);
     }
 }
